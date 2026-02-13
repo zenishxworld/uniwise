@@ -37,8 +37,8 @@ export default function UniversityDetail() {
         }
     };
 
-    const countryNames: Record<string, string> = { canada: 'Canada', germany: 'Germany' };
-    const countryFlags: Record<string, string> = { canada: '🇨🇦', germany: '🇩🇪' };
+    const countryNames: Record<string, string> = { canada: 'Canada', germany: 'Germany', uk: 'United Kingdom', australia: 'Australia', usa: 'United States' };
+    const countryFlags: Record<string, string> = { canada: '🇨🇦', germany: '🇩🇪', uk: '🇬🇧', australia: '🇦🇺', usa: '🇺🇸' };
 
     if (loading) {
         return (
